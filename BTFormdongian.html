@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        caption{
+            background: orange;
+            color: white;
+        }
+        .trai{
+            color: blue;
+            float: right;
+        }
+        .cam{
+            color: orange;
+        }
+        table{
+            background-color: palegreen;
+        }
+        .form1{
+            width: 350px;
+            padding: 5px;
+            background-color: rgb(0, 60, 255);
+
+        }
+        .form1 h2{
+            text-align: center;
+            background-color: palegreen;
+        }
+        .form1 .trai{
+            color: blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <form action=""><table>
+        <caption>Sở thích của bạn</caption>
+        <tr>
+            <td class="trai">Họ và tên</td>
+            <td><input type="text" size="25" name="yourname"> </td>
+        </tr>
+        <tr>
+            <td class="trai">Email</td>
+            <td><input type="email" size="20" name="email"> </td>
+        </tr>
+        <tr>
+            <td class="trai">Sở thích</td>
+            <td>
+                <table>
+                    <tr>
+                        <td class="cam"><input type="checkbox" name="hobby">Thể thao</td>
+                        <td class="cam"><input type="checkbox" name="hobby">Âm nhạc</td>
+                        <td class="cam"><input type="checkbox" name="hobby">Đọc sách</td>
+                    </tr>
+                    <tr>
+                        <td class="cam"><input type="checkbox" name="hobby">Lướt web</td>
+                        <td class="cam"><input type="checkbox" name="hobby">Chơi game</td>
+                        <td class="cam"><input type="checkbox" name="hobby">Điện ảnh</td>
+                    </tr>
+                    <tr>
+                        <td class="cam"><input type="checkbox" name="hobby">Du lịch</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <input type="submit" value="Gửi đi">
+                <input type="reset" value="Làm lại" name="" id="">
+            </td>
+        </tr>
+
+    </table>
+</form>
+<br>
+<br>
+<form action="" class="form1">
+    <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+    <table>
+        <tr>
+            <td class="trai">Họ và tên</td>
+            <td><input type="text" size="25px" name="yourname"></td>
+        </tr>
+        <tr>
+            <td class="trai">Ngày sinh</td>
+            <td><input type="date" size="20px" name="birthday"></td>
+        </tr>
+        <tr>
+            <td class="trai">Giới tính</td>
+            <td>
+                <input type="radio" name="gender" id="1" value="nam">Nam
+                <input type="radio" name="gender" id="2" value="nu">Nữ
+            </td>
+        </tr>
+        <tr>
+            <td class="trai">Địa chỉ</td>
+            <td><textarea name="address" id="" cols="30" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td class="trai">Lớp</td>
+            <td>
+                <select name="select" id="">
+                    <option value="lop">Chọn lớp</option>
+                    <option value="lop">Lớp A</option>
+                    <option value="lop">Lớp B</option>
+                    <option value="lop">Lớp C</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="trai">Email</td>
+            <td><input type="email" name="" id=""></td>
+
+        </tr>
+        <tr>
+            <td class="trai">Điện thoại</td>
+            <td><input type="tel" name="phone" id=""></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button>Đăng ký</button>
+                <button>Nhập lại</button>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
